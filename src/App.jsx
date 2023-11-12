@@ -11,7 +11,9 @@ function App() {
       <BrowserRouter>
         <Navbar/>
         <Suspense fallback={null}>
+        <Loader/>
           <Hero/>
+          <Loader/>
         </Suspense>
         <Loader/>
       </BrowserRouter>

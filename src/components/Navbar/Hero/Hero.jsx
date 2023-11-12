@@ -8,9 +8,12 @@ const Hero = () => {
             <div className='flex flex-col justify-center'>
                 <LeftPart/>
             </div>
-            <div className='lg:h-[600px] md:h-[400px] h-[400px]  w-full flex items-center justify-center '>
+            <div className='lg:h-[600px] md:h-[600px] h-[600px] w-full flex items-center'>
                 <RightPart/>
-            </div>
+            </div>          
+            <section id="section-1">
+                <a id="scroll-btn" href="#about"></a>
+            </section>
         </div>
     )
 }
